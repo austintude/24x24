@@ -6,20 +6,29 @@
 
 module.exports = {
   siteMetadata: {
-    title: `My First Gatsby Site!`,
-    titleTemplate: `%s · a starting point`,
+    title: `24x25 Photo Marathon`,
+    titleTemplate: `%s · A World-Wide Event`,
     author: {
       name: `Morten Rand-Hendriksen`,
       summary: `a ballroom dancer playing at being a developer.`,
     },
-    description: `An opinionated starter for Gatsby`,
-    url: `https://something.or.other`,
+    description: `Bringing the World Together`,
+    url: `https://24x24photomarathon.com`,
     logo: `static/logo.png`,
-    twitter: `mor10`,
+    twitter: `24x24photomarathon`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-css-customs`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/content/images/`,
+      },
+    },
   ],
 }
