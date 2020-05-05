@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `24x25 Photo Marathon`,
+    title: `24x24 Photo Marathon`,
     titleTemplate: `%s · A World-Wide Event`,
     author: {
       name: `Morten Rand-Hendriksen`,
@@ -21,6 +21,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-css-customs`,
+    'gatsby-plugin-svgr',
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

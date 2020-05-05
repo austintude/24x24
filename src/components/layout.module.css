@@ -1,5 +1,5 @@
 html {
-  font-size: 112.5%; /* 1rem = 18px */
+  font-size: 125%; /* 1rem = 20px */
   scroll-behavior: smooth;
 }
 
@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  background: var(--main-bg-light);
   box-sizing: border-box;
   color: #000;
   font-family: var(--primary-font);

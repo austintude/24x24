@@ -4,5 +4,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background: var(--main-bg-light);
 }
