@@ -7,10 +7,10 @@
 module.exports = {
   siteMetadata: {
     title: `24x24 Photo Marathon`,
-    titleTemplate: `%s · A World-Wide Event`,
+    titleTemplate: `%s · A World-Wide Event `,
     author: {
-      name: `Morten Rand-Hendriksen`,
-      summary: `a ballroom dancer playing at being a developer.`,
+      name: `Morten Rand-Hendriksen  `,
+      summary: `a ballroom dancer and developer.`,
     },
     description: `Bringing the World Together`,
     url: `https://24x24photomarathon.com`,
@@ -21,7 +21,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     `gatsby-plugin-css-customs`,
-    'gatsby-plugin-svgr',
+    "gatsby-plugin-svgr",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
