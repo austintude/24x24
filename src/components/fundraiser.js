@@ -1,6 +1,6 @@
 import React from "react"
-import { ReactComponent as MSFLogo } from "../../content/images/msf.svg"
-import { ReactComponent as WHOLogo } from "../../content/images/who.svg"
+// import { ReactComponent as MSFLogo } from "../../content/images/msf.svg"
+// import { ReactComponent as WHOLogo } from "../../content/images/who.svg"
 
 import style from "./fundraiser.module.css"
 
@@ -20,7 +20,7 @@ const Fundraiser = () => {
       <div className={style.orgs}>
         <div className={style.orgs__single}>
           <figure className={style.orgs__image}>
-            <WHOLogo />
+            <img src="images/who.svg" alt="WHO logo" />
           </figure>
           <h3 className={style.orgs__heading}>World Health Organization</h3>
           <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/donate">
@@ -29,7 +29,7 @@ const Fundraiser = () => {
         </div>
         <div className={style.orgs__single}>
           <figure className={style.orgs__image}>
-            <MSFLogo />
+            <img src="images/msf.svg" alt="MSF logo" />
           </figure>
           <h3 className={style.orgs__heading}>Doctors Without Borders</h3>
           <a href="https://www.msf.org/donate">Donate</a>

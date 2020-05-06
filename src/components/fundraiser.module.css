@@ -28,7 +28,7 @@
   border-radius: 2rem;
 }
 
-.orgs__image {
+.orgs__image img {
   width: 100%;
   margin-bottom: 2rem;
 }
@@ -70,6 +70,5 @@
     height: 7rem;
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
   }
 }
