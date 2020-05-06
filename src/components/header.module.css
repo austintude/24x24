@@ -1,3 +1,48 @@
+.feature {
+  margin-bottom: 1.8rem;
+  padding: 1rem;
+  background: var(--main-bg-light);
+  font-family: var(--primary-font);
+}
+
+.feature__info {
+  z-index: 1;
+  margin: 0 auto;
+  padding: 2.2rem 1.8rem;
+  max-width: 44rem;
+  justify-self: center;
+  text-align: center;
+  font-variation-settings: "opsz" 144;
+}
+
+.feature__heading {
+  margin-top: 1rem;
+  font-family: var(--primary-font);
+}
+
+.feature__subhead::before {
+  display: block;
+  width: 60%;
+  margin: 1.6rem auto 1.4rem;
+  content: "";
+  border-bottom: 1px solid;
+}
+
+.feature__subhead {
+  font-size: 1.4rem;
+}
+
+@media screen and (--viewport-narrow-min) {
+  .feature__heading {
+    margin-top: 2rem;
+    font-size: 4rem;
+  }
+
+  .feature__subhead {
+    font-size: 2.4rem;
+  }
+}
+
 .masthead {
   padding: 1rem;
   font-size: 84%;

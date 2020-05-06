@@ -1,0 +1,75 @@
+.fundraiser {
+  margin-top: 2rem;
+  padding: 4rem 2rem;
+  background-color: hsl(8, 100%, 67%);
+}
+
+.fundraiser__text {
+  margin: 0 auto 2rem;
+  max-width: var(--content-w-narrow);
+}
+
+.fundraiser__heading {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.fundraiser__blurb {
+  margin: 1rem auto;
+  font-size: 120%;
+}
+
+.orgs__single {
+  margin: 0 auto;
+  max-width: 30rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 2rem;
+}
+
+.orgs__image {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.orgs__heading {
+  font-size: 120%;
+  text-align: center;
+}
+
+.orgs a {
+  background: lightgray;
+  margin: 1rem -2rem -2rem;
+  display: block;
+  border-radius: 0 0 2rem 2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-family: var(--highlight-font);
+  font-size: 130%;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.orgs a:focus,
+.orgs a:hover {
+  background: hsl(162, 43%, 46%);
+  color: white;
+}
+
+@media screen and (min-width: 900px) {
+  .orgs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(15rem, 20rem));
+    grid-gap: 2rem;
+    justify-content: center;
+  }
+
+  .orgs__image {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+}

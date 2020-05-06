@@ -1,5 +1,5 @@
 html {
-  font-size: 125%; /* 1rem = 20px */
+  font-size: 135%;
   scroll-behavior: smooth;
 }
 
@@ -9,10 +9,17 @@ html {
   }
 }
 
+@media screen and (--viewport-narrow-min) {
+  html {
+    font-size: 155%;
+  }
+}
+
 body {
   box-sizing: border-box;
   color: #000;
   font-family: var(--primary-font);
+  font-variation-settings: "opsz" 14;
   letter-spacing: -0.015em;
   text-align: left;
 }
@@ -27,7 +34,12 @@ h3,
 h4,
 h5,
 h6 {
-  letter-spacing: -0.0415625em;
-  font-weight: 700;
+  font-family: var(--highlight-font);
+  padding-bottom: 0.5rem;
+  font-weight: 600;
   line-height: 1.15;
+}
+
+a {
+  color: inherit;
 }

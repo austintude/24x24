@@ -2,7 +2,20 @@
   margin: 0;
   padding: 4rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: var(--main-bg-light);
+}
+
+.getInvolved {
+  max-width: var(--content-w-narrow);
+}
+
+.getInvolved::after {
+  display: block;
+  margin: 2rem auto 4rem;
+  width: 10rem;
+  content: "";
+  border-bottom: 1px solid black;
 }
