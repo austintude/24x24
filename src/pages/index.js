@@ -9,8 +9,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO
-        title="The home page"
-        description="You can customize the SEO text here."
+        title="24x24 Photo Marathon, May 24, 2020"
+        description="A World-Wide Photo Event Happening Online"
         image="/logo.png"
         pathname="/"
         // Boolean indicating whether this is an article:
