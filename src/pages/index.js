@@ -23,6 +23,19 @@ const IndexPage = () => {
           <p className={style.lede}>
             Welcome to the 2020 24 Hour World-Wide Photo Marathon!
           </p>
+          <div className={style.bigger}>
+            <div className={style.videoWrapper}>
+              <iframe
+                title="24x24 Photo Marathon promo video on YouTube"
+                width="560"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/lRSmznB4T3I?rel=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
           <p>
             What's this all about you ask? The answer can be summed up in three
             simple sentences (or you can <Link to="/faq">visit the FAQ</Link>{" "}
