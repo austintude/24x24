@@ -21,6 +21,9 @@ const IndexPage = () => {
         <p>You have questions. Here are (some of) the answers:</p>
         <ul className={style.qlist}>
           <li>
+            <a href="#contact">How do I contact the 24x24 Photo Marathon?</a>
+          </li>
+          <li>
             <a href="#whatis">What is a photo marathon?</a>
           </li>
           <li>
@@ -85,6 +88,31 @@ const IndexPage = () => {
           </li>
         </ul>
         <section className={style.answers}>
+          <div
+            id="whatis"
+            className={style.answer}
+            itemscope
+            itemprop="mainEntity"
+            itemtype="https://schema.org/Question"
+          >
+            <h2 itemprop="contact">
+              How do I contact the 24x24 Photo Marathon?
+            </h2>
+            <div
+              itemscope
+              itemprop="acceptedAnswer"
+              itemtype="https://schema.org/Answer"
+            >
+              <p itemprop="text">
+                You can contact us in two ways: Either through Twitter{" "}
+                <a href="https://twitter.com/24x24photomarathon">
+                  @24x24photomarathon
+                </a>{" "}
+                or by sending an email to info [at] 24x24photomarathon [dot]
+                com.
+              </p>
+            </div>
+          </div>
           <div
             id="whatis"
             className={style.answer}
