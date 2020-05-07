@@ -15,7 +15,7 @@ module.exports = {
     },
     description: `Bringing the World Together`,
     url: `https://24x24photomarathon.com`,
-    logo: `static/logo.png`,
+    logo: `logo.png`,
     twitter: `24x24photo`,
   },
   plugins: [
