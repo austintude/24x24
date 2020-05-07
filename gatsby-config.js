@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  pathPrefix: "/24x24",
+  pathPrefix: "",
   siteMetadata: {
     title: `24x24 Photo Marathon`,
     titleTemplate: `%s · A World-Wide Event `,
