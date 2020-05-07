@@ -59,9 +59,9 @@ const IndexPage = () => {
           <h2>24 Themes</h2>
           <p>
             One theme will be announced on this website and on{" "}
-            <a href="https://twitter.com/24x24photomarathon">Twitter</a> at the
-            start of each hour beginning May 24, 2020 at 00:00 UTC until all 24
-            themes have been revealed.
+            <a href="https://twitter.com/24x24photo">Twitter</a> at the start of
+            each hour beginning May 24, 2020 at 00:00 UTC until all 24 themes
+            have been revealed.
           </p>
           <h2>24 Photos</h2>
           <p>

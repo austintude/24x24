@@ -89,7 +89,7 @@ const IndexPage = () => {
         </ul>
         <section className={style.answers}>
           <div
-            id="whatis"
+            id="contact"
             className={style.answer}
             itemscope
             itemprop="mainEntity"
@@ -105,11 +105,8 @@ const IndexPage = () => {
             >
               <p itemprop="text">
                 You can contact us in two ways: Either through Twitter{" "}
-                <a href="https://twitter.com/24x24photomarathon">
-                  @24x24photomarathon
-                </a>{" "}
-                or by sending an email to info [at] 24x24photomarathon [dot]
-                com.
+                <a href="https://twitter.com/24x24photo">@24x24photo</a> or by
+                sending an email to info [at] 24x24photomarathon [dot] com.
               </p>
             </div>
           </div>
@@ -181,9 +178,8 @@ const IndexPage = () => {
               itemtype="https://schema.org/Answer"
             >
               <p itemprop="text">
-                Sunday May 24, 2020 at 00:00 UTC (click to convert this to your
-                time zone) (i.e. midnight when May 23 turns to May 24 at
-                Coordinated Universal Time).
+                Sunday May 24, 2020 at 00:00 UTC (i.e. midnight when May 23
+                turns to May 24 at Coordinated Universal Time).
               </p>
             </div>
           </div>
@@ -226,8 +222,8 @@ const IndexPage = () => {
                   <li>
                     For 24 hours beginning May 24, 2020 at 00:00 UTC, check this
                     website or Twitter (
-                    <a href="https://twitter.com/24x24photomarathon">
-                      <span className={style.tag}>@24x24photomarathon</span>
+                    <a href="https://twitter.com/24x24photo">
+                      <span className={style.tag}>@24x24photo</span>
                     </a>
                     ) for themes.
                   </li>
