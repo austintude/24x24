@@ -3,7 +3,7 @@ import React from "react"
 import { ReactComponent as Logo } from "../../static/logo.svg"
 import style from "./header.module.css"
 
-const Header = () => {
+const IndexHeader = () => {
   return (
     <header className={style.feature}>
       <div className={style.feature__info}>
@@ -15,4 +15,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default IndexHeader

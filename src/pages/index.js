@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -7,7 +8,7 @@ import style from "./index.module.css"
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Layout page={false}>
       <SEO
         title="24x24 Photo Marathon, May 24, 2020"
         description="A World-Wide Photo Event Happening Online"
@@ -20,11 +21,12 @@ const IndexPage = () => {
       <section className={style.wrapper} id="primary">
         <div>
           <p className={style.lede}>
-            Welcome to the first ever 24 Hour World-Wide Photo Marathon!
+            Welcome to the 2020 24 Hour World-Wide Photo Marathon!
           </p>
           <p>
             What's this all about you ask? The answer can be summed up in three
-            simple sentences:
+            simple sentences (or you can <Link to="/faq">visit the FAQ</Link>{" "}
+            for more info):
           </p>
           <blockquote className={style.quote}>
             24 Hours
@@ -32,23 +34,31 @@ const IndexPage = () => {
             <br />
             24 Photos
           </blockquote>
+          <h2>24 Hours</h2>
           <p>
-            On{" "}
+            The competition begins at precisely{" "}
             <a href="https://www.timeanddate.com/worldclock/converter.html?iso=20200524T000000&p1=1440">
-              May 24, 2020 at exactly 00:00UTC (click to convert this time to
-              your timezone)
+              00:00UTC (click to convert this time to your timezone) on May 24,
+              2020
             </a>{" "}
-            a theme will be announced on this website and on{" "}
-            <a href="https://twitter.com/24x24photomarathon">Twitter</a>, and
-            for the next 23 hours another theme will be annouced every hour.
+            and will last exactly 24 hours.
           </p>
+          <h2>24 Themes</h2>
           <p>
-            Your challenge is to grab your camera or smartphone, interpret the
-            theme in a single photo, and post it to Twitter or Instagram using
-            the hashtag for the current theme (eg. #24x24theme02 for theme 2)
-            and the officla hashtag #24x24photomarathon.
+            One theme will be announced on this website and on{" "}
+            <a href="https://twitter.com/24x24photomarathon">Twitter</a> at the
+            start of each hour beginning May 24, 2020 at 00:00 UTC until all 24
+            themes have been revealed.
           </p>
-          <h2>Photo Marathon?!?</h2>
+          <h2>24 Photos</h2>
+          <p>
+            By the end of the competition, marathoners around the globe will
+            have submitted 24 photos on either Twitter or Instagram tagged with
+            theme number hashtags (e.g. #24x24theme01 for the first theme,
+            #24x24theme02 for the second theme, etc.) and the official
+            #24x24photomarathon event hashtag.
+          </p>
+          <h2>A Photo Marathon?!?</h2>
           <p>
             <a href="https://en.wikipedia.org/wiki/Photomarathon">
               Photo Marathons
@@ -65,36 +75,31 @@ const IndexPage = () => {
             so on. Over 12 hours, they produce 12 photos interpreting 12
             different themes.
           </p>
-          <h2>How is 24x24 Photo Marathon different?</h2>
-          <p>
-            This event is a bit different. First, it is happening all over the
-            world at the same time, starting on May 24th, 2020, at 00:00UTC.
-            Second, it lasts 24 hours as opposed to the traditional 12. Third,
-            the event is entirely online and open to anyone and everyone: All
-            you need to do to take part is interpret the theme for the hour and
-            post it on Twitter or Instagram using the hashtag for the current
-            theme (eg. #24x24theme02 for theme 2) and the officla hashtag
-            #24x24photomarathon. Fourth and finally, unlike other photo
-            marathons, there is no judging, and there are no prizes in this
-            event. This is for fun and community, nothing else.
-          </p>
           <h2>Who is behind this?</h2>
           <p>
-            The 24x24 Photo Marathon is the brain child of photographer and
-            photo marathon organizer Morten Rand-Hendriksen. He always wanted to
-            organize a world-wide photomarathon over 24 hours to see how people
-            in different parts of the globe interpret the same themes.
+            The 24x24 Photo Marathon is the brainchild of photographer and{" "}
+            <a href="http://vancouverphotomarathon.com">
+              12x12 Vancouver Photo Marathon
+            </a>{" "}
+            organizer Morten Rand-Hendriksen. Some people like running
+            marathons, travelling internationally, or taking photos. Somewhere
+            along the way Morten got things a bit mixed up and decided he wanted
+            to organize a 24-hour international photo marathon instead.
           </p>
           <p>
-            The event is organized by a community of photographers and
-            technologists.
+            Morten is curious to see how people around the globe will interpret
+            the same 24 themes to develop uniquely different and creative
+            images. The community of photographers and technologists working
+            with him to produce this event are just as curious to see what you
+            come up with!
           </p>
           <p>
-            24x24 Photo Marathon is not part of a promotional campaign or
-            anything like that. It is purely for the joy of photography. You
-            sign up for nothing by taking part, and you will not be asked to
-            relinquish your rights or priveleges or email address or anything
-            else.
+            The 24x24 Photo Marathon is not part of any promotional campaign and
+            is not affiliated with any organization. It’s a fun competition
+            created purely for the joy of photography. By signing up to take
+            part, you are simply signing up to take part (nothing else). You
+            will not be asked to relinquish any rights or privileges to your
+            images.
           </p>
         </div>
       </section>

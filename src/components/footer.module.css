@@ -19,3 +19,7 @@
   content: "";
   border-bottom: 1px solid black;
 }
+
+.credits {
+  margin-bottom: 2rem;
+}

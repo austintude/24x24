@@ -13,6 +13,13 @@ const Footer = ({ siteTitle }) => (
         <a href="https://github.com/mor10/24x24/">jump into the GitHub Repo</a>!
       </p>
     </aside>
+    <aside className={style.credits}>
+      The 24x24 website is set with{" "}
+      <a href="https://github.com/TypeNetwork/Amstelvar">Amstelvar</a> and{" "}
+      <a href="https://www.recursive.design/">Recursive</a> and powered by{" "}
+      <a href="https://www.gatsbyjs.org/">Gatsby</a>.{" "}
+      <a href="https://github.com/mor10/24x24">Source</a>.
+    </aside>
     © {new Date().getFullYear()} {siteTitle}
   </footer>
 )

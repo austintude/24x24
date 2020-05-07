@@ -8,7 +8,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "../components/index.header"
+import IndexHeader from "../components/index.header"
+import Header from "../components/header"
 import Footer from "./footer"
 
 // Styles
@@ -18,7 +19,7 @@ import "../styles/global.module.css"
 import "../fonts/fonts.css"
 import style from "./layout.module.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ page, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -35,7 +36,7 @@ const Layout = ({ children }) => {
       <a className="skip-link screen-reader-text" href="#primary">
         Skip to the content
       </a>
-      <Header />
+      {page ? <Header /> : <IndexHeader />}
       <main id="primary" className={style.site_main}>
         {children}
       </main>

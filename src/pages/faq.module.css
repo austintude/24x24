@@ -1,0 +1,73 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 0 2rem;
+  max-width: var(--content-w-narrow);
+}
+
+ul.qlist {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-top: 0;
+}
+
+.qlist li {
+  margin-bottom: 1px;
+  padding: 0.2rem 0;
+  display: flex;
+}
+
+.qlist li::before {
+  margin-right: 0.5rem;
+  padding: 0.25rem 0.35rem;
+  color: white;
+  content: "Q";
+  background: var(--highlight);
+}
+
+.qlist a {
+  display: block;
+  padding: 0.25rem 0.25rem 0.25rem 0.5rem;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 90%);
+  font-family: var(--highlight-font);
+  width: 100%;
+}
+
+.qlist a:focus,
+.qlist a:hover {
+  background: var(--highlight);
+  color: white;
+}
+
+.answer {
+  margin-bottom: 3rem;
+  padding-left: 1.75rem;
+  border-left: 5px solid hsl(0, 0%, 90%);
+}
+
+.answer h2 {
+  margin-bottom: 0.5rem;
+  margin-left: -1.75rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 1.75rem;
+  font-size: 120%;
+  background: hsl(0, 0%, 90%);
+}
+.answer p {
+  padding-bottom: 0;
+}
+
+:target h2 {
+  background: var(--highlight);
+  color: white;
+}
+
+:target {
+  border-left-color: var(--highlight);
+}
+
+.tag {
+  font-family: var(--highlight-font);
+  font-weight: 525;
+}

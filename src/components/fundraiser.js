@@ -12,9 +12,10 @@ const Fundraiser = () => {
           Support COVID-19 efforts world-wide
         </h2>
         <div className={style.fundraiser__blurb}>
-          24x24 Photo Marahont is not a fundraiser. However, if you want to
-          contribute to the world-wide effort to curb COVID-19, we recommend
-          donating to one of the following organizations:
+          The 24x24 Photo Marathon is not a fundraiser and is not affiliated
+          with any organization. However, if you want to contribute to an
+          international cause we care about, we recommend donating to one of the
+          following organizations:
         </div>
       </div>
       <div className={style.orgs}>
