@@ -18,9 +18,12 @@
     "gatsby-plugin-svgr": "^2.0.2",
     "gatsby-source-filesystem": "^2.3.0",
     "gatsby-transformer-sharp": "^2.5.0",
+    "moment": "^2.25.3",
+    "moment-timezone": "^0.5.31",
     "prop-types": "^15.7.2",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-moment": "^0.9.7"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",

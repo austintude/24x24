@@ -576,7 +576,7 @@ const IndexPage = () => {
             >
               <p itemprop="text">
                 There are no prizes for this event, nor are there medals. That
-                doesn't prevent you from making your won and posting a photo of
+                doesn't prevent you from making your own and posting a photo of
                 it though!
               </p>
             </div>
